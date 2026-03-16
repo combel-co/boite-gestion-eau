@@ -104,9 +104,8 @@
         /* HEADER */
         .header { background: var(--white); position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-sm); }
         .header .container { display: flex; justify-content: space-between; align-items: center; height: 80px; }
-        .logo { font-family: var(--font-body); font-size: 1.5rem; font-weight: 900; color: var(--navy); display: flex; align-items: center; gap: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
-        .logo-icon { width: 42px; height: 42px; background: var(--navy); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; }
-        .logo-icon svg { width: 24px; height: 24px; }
+        .logo { font-family: var(--font-body); font-size: 1.5rem; font-weight: 900; color: var(--orange); display: flex; align-items: center; gap: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+        .logo-icon { display: none; }
         .logo span { color: var(--orange); }
         .nav { display: flex; align-items: center; gap: 4px; }
         .nav a { padding: 8px 16px; font-size: 0.9rem; font-weight: 500; color: var(--gray-600); border-radius: var(--radius); transition: all var(--transition); }
@@ -371,12 +370,7 @@
     <!-- HEADER — Bouton CTA corrigé avec contraste blanc/navy -->
     <header class="header">
         <div class="container">
-            <a href="#" class="logo">
-                <div class="logo-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M3 21h18M4 18l3-12h10l3 12M9 6V3h6v3"/></svg>
-                </div>
-                O'<span>PROTEC</span>
-            </a>
+            <a href="#" class="logo">O'<span>PROTEC</span></a>
             <nav class="nav" id="mainNav">
                 <a href="#accueil" class="active">Accueil</a>
                 <div class="dropdown">
@@ -606,10 +600,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="logo">
-                        <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M3 21h18M4 18l3-12h10l3 12M9 6V3h6v3"/></svg></div>
-                        O'<span>PROTEC</span>
-                    </div>
+                    <div class="logo">O'<span>PROTEC</span></div>
                     <p>Spécialiste de l'étanchéité par géomembrane PEHD et PP pour l'industrie, l'agriculture et les collectivités.</p>
                 </div>
                 <div>
